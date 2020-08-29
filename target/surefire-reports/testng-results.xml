@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="227441" started-at="2020-08-29T14:45:22Z" finished-at="2020-08-29T14:49:10Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="227441" started-at="2020-08-29T14:45:22Z" finished-at="2020-08-29T14:49:10Z">
+      <class name="com.qa.testscripts.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="10022" started-at="2020-08-29T14:48:11Z" finished-at="2020-08-29T14:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="verifyPageTitle" duration-ms="5015" started-at="2020-08-29T14:48:21Z" finished-at="2020-08-29T14:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="closeApp" is-config="true" duration-ms="592" started-at="2020-08-29T14:48:26Z" finished-at="2020-08-29T14:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="11426" started-at="2020-08-29T14:48:26Z" finished-at="2020-08-29T14:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginElement()[pri:2, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="verifyLoginElement" duration-ms="5081" started-at="2020-08-29T14:48:38Z" finished-at="2020-08-29T14:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginElement -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="closeApp" is-config="true" duration-ms="594" started-at="2020-08-29T14:48:43Z" finished-at="2020-08-29T14:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="12393" started-at="2020-08-29T14:48:43Z" finished-at="2020-08-29T14:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="loginTest" duration-ms="13017" started-at="2020-08-29T14:48:56Z" finished-at="2020-08-29T14:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qa.testscripts.LoginPageTest@6d4b1c02]" name="closeApp" is-config="true" duration-ms="597" started-at="2020-08-29T14:49:09Z" finished-at="2020-08-29T14:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.qa.testscripts.LoginPageTest -->
+      <class name="com.qa.testscripts.DashBoardTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.DashBoardTest@7cd62f43]" name="setUp" is-config="true" duration-ms="40919" started-at="2020-08-29T14:45:22Z" finished-at="2020-08-29T14:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkDashboardTitle()[pri:0, instance:com.qa.testscripts.DashBoardTest@7cd62f43]" name="checkDashboardTitle" duration-ms="4148" started-at="2020-08-29T14:46:03Z" finished-at="2020-08-29T14:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardTitle -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qa.testscripts.DashBoardTest@7cd62f43]" name="closeApp" is-config="true" duration-ms="807" started-at="2020-08-29T14:46:07Z" finished-at="2020-08-29T14:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.qa.testscripts.DashBoardTest -->
+      <class name="com.qa.testscripts.AddAdminTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.AddAdminTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="22869" started-at="2020-08-29T14:46:10Z" finished-at="2020-08-29T14:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newUsersData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testscripts.AddAdminTest@6a41eaa2]" name="newUsersData" duration-ms="35746" started-at="2020-08-29T14:46:33Z" data-provider="geAdminUserData" finished-at="2020-08-29T14:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linda Anderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NickJhon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUsersData -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qa.testscripts.AddAdminTest@6a41eaa2]" name="closeApp" is-config="true" duration-ms="608" started-at="2020-08-29T14:47:08Z" finished-at="2020-08-29T14:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.AddAdminTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="27495" started-at="2020-08-29T14:47:09Z" finished-at="2020-08-29T14:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newUsersData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testscripts.AddAdminTest@6a41eaa2]" name="newUsersData" duration-ms="33610" started-at="2020-08-29T14:47:37Z" data-provider="geAdminUserData" finished-at="2020-08-29T14:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linda Anderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maroon42]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUsersData -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qa.testscripts.AddAdminTest@6a41eaa2]" name="closeApp" is-config="true" duration-ms="596" started-at="2020-08-29T14:48:10Z" finished-at="2020-08-29T14:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.qa.testscripts.AddAdminTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

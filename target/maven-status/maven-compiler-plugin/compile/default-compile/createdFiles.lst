@@ -1,0 +1,10 @@
+com\qa\pages\LoginPage.class
+com\qa\base\BaseClass.class
+com\qa\pages\PIMPage.class
+com\qa\testreports\HRMExtentReportsListeners.class
+com\qa\pages\TimePage.class
+com\qa\pages\AdminPage.class
+com\qa\utils\WebEventListener.class
+com\qa\pages\DashBoardPage.class
+com\qa\utils\Utilities.class
+com\qa\pages\LeavePage.class
